@@ -6,15 +6,27 @@
 }
 .character-combat-stats-row {
     display: flex;
+    margin-bottom: 15px;
 }
+.character-combat-stats__initiative,
+.character-combat-stats__speed,
 .character-combat-stats__armor {
     display: flex;
     flex-direction: column;
+    min-height: 100px;
+    width: 100px;
+    background-image: url('../../../img/box.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 20px;
+    &:last-of-type {
+        margin-right: 0;
+    }
+}
+.character-combat-stats__armor {
     min-height: 103px;
     width: 90px;
     background-image: url('../../../img/armor.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 .character-combat-stats__input {
     display: block;
@@ -33,4 +45,82 @@
     text-transform: uppercase;
     font-size: 12px;
     margin-bottom: 20px;
+}
+.character-combat-stats__hitpoints {
+   
+}
+.character-combat-stats__hitpoints-current {
+    min-height: 125px;
+    padding: 12px;
+    background-image: url('../../../img/hitPointsCurrent.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.character-combat-stats__hitpoints-current-text {
+    margin-right: 5px;
+    display: inline-block;
+}
+.character-combat-stats__hitpoints-current-input {
+    border: none;
+    border-bottom: 1px solid $grey;
+    background-color: transparent;
+    text-align: center;
+}
+.character-combat-stats__hitpoints-current-wrap {
+    display: flex;
+    margin-bottom: 10px;
+}
+.character-combat-stats__hitpoints-current-textarea {
+    display: block;
+    width: 100%;
+    background: transparent;
+    resize: none;
+    border: none;
+    margin-bottom: 10px;
+}
+.character-combat-stats__hitpoints-temp {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-image: url('../../../img/hitPointsTemp.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 105px;
+}
+.character-combat-stats__hitpoints-temp-textarea {
+    border: none;
+    resize: none;
+    background: transparent;
+}
+.character-combat-stats__hit, .character-combat-stats__death-saves {
+    display: flex;
+    flex-direction: column;
+    min-height: 105px;
+    width: 50%;
+    margin-right: 7px;
+    padding: 14px;
+    background-image: url('../../../img/boxMd.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    &:last-of-type {
+        margin-right: 0;
+        margin-left: 7px;
+    }
+    .character-combat-stats__text {
+        margin-top: auto;
+    }
+}
+.character-combat-stats__hit {
+    input {
+        display: block;
+        width: 100%;
+    }
+}
+
+.character-combat-stats__death-saves-textarea {
+    display: block;
+    width: 100%;
+    resize: none;
+    border: none;
+    background: transparent;
 }

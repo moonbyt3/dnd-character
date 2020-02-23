@@ -8,6 +8,16 @@
     display: block;
     text-transform: uppercase;
 }
+.form-input-underline-label {
+    margin-right: 5px;
+    display: inline-block;
+}
+.form-input-underline {
+    border: none;
+    border-bottom: 1px solid $grey;
+    background-color: transparent;
+    text-align: center;
+}
 .form-row {
     display: flex;
 }
