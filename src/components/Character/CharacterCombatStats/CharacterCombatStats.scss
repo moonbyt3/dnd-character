@@ -47,7 +47,9 @@
     margin-bottom: 20px;
 }
 .character-combat-stats__hitpoints {
-   
+    .character-combat-stats__text {
+        margin-bottom: 0;
+    }
 }
 .character-combat-stats__hitpoints-current {
     min-height: 125px;
@@ -92,7 +94,8 @@
     resize: none;
     background: transparent;
 }
-.character-combat-stats__hit, .character-combat-stats__death-saves {
+.character-combat-stats__hit, 
+.character-combat-stats__death-saves {
     display: flex;
     flex-direction: column;
     min-height: 105px;
