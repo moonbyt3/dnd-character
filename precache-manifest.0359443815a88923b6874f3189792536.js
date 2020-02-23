@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0d1543680d05991f780404c8ede1a7ca",
+    "revision": "9ff6185d6fac9cba124002dee1b5252a",
     "url": "/dnd-character/index.html"
   },
   {
-    "revision": "3c7605bf5b3cb423f446",
-    "url": "/dnd-character/static/css/main.2018d84d.chunk.css"
+    "revision": "bce00b91ac876f9ea214",
+    "url": "/dnd-character/static/css/main.9ab11322.chunk.css"
   },
   {
     "revision": "40855737c84c214349d3",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dnd-character/static/js/2.dec5b92c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3c7605bf5b3cb423f446",
-    "url": "/dnd-character/static/js/main.bfe624bf.chunk.js"
+    "revision": "bce00b91ac876f9ea214",
+    "url": "/dnd-character/static/js/main.3e82fa80.chunk.js"
   },
   {
     "revision": "9590250f5bf1fcfc73ae",
@@ -28,12 +28,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dnd-character/static/media/armor.42ffbf72.svg"
   },
   {
+    "revision": "6f40b89292656861e275c3c0fbb900b3",
+    "url": "/dnd-character/static/media/box.6f40b892.svg"
+  },
+  {
+    "revision": "045d508a6d45af3117b1e9f265aba8df",
+    "url": "/dnd-character/static/media/boxMd.045d508a.svg"
+  },
+  {
     "revision": "5528895621ed299e444f8afb786da913",
     "url": "/dnd-character/static/media/headerChar.55288956.svg"
   },
   {
     "revision": "c92812d6fb33dbebf5c666b12f1f8edd",
     "url": "/dnd-character/static/media/headerInfo.c92812d6.svg"
+  },
+  {
+    "revision": "8f2b811e1a40fa2e375d694c68c84fb5",
+    "url": "/dnd-character/static/media/hitPointsCurrent.8f2b811e.svg"
+  },
+  {
+    "revision": "e0566c0e80f1915f18a2d01159116c3b",
+    "url": "/dnd-character/static/media/hitPointsTemp.e0566c0e.svg"
   },
   {
     "revision": "018f3db6581b2db254aa557dbc99644e",

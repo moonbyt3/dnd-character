@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/dnd-character/static/css/main.2018d84d.chunk.css",
-    "main.js": "/dnd-character/static/js/main.bfe624bf.chunk.js",
-    "main.js.map": "/dnd-character/static/js/main.bfe624bf.chunk.js.map",
+    "main.css": "/dnd-character/static/css/main.9ab11322.chunk.css",
+    "main.js": "/dnd-character/static/js/main.3e82fa80.chunk.js",
+    "main.js.map": "/dnd-character/static/js/main.3e82fa80.chunk.js.map",
     "runtime-main.js": "/dnd-character/static/js/runtime-main.65fb8cb0.js",
     "runtime-main.js.map": "/dnd-character/static/js/runtime-main.65fb8cb0.js.map",
     "static/js/2.dec5b92c.chunk.js": "/dnd-character/static/js/2.dec5b92c.chunk.js",
     "static/js/2.dec5b92c.chunk.js.map": "/dnd-character/static/js/2.dec5b92c.chunk.js.map",
     "index.html": "/dnd-character/index.html",
-    "precache-manifest.e4c9ce382722c9c03ddc0e80d1f948aa.js": "/dnd-character/precache-manifest.e4c9ce382722c9c03ddc0e80d1f948aa.js",
+    "precache-manifest.0359443815a88923b6874f3189792536.js": "/dnd-character/precache-manifest.0359443815a88923b6874f3189792536.js",
     "service-worker.js": "/dnd-character/service-worker.js",
-    "static/css/main.2018d84d.chunk.css.map": "/dnd-character/static/css/main.2018d84d.chunk.css.map",
+    "static/css/main.9ab11322.chunk.css.map": "/dnd-character/static/css/main.9ab11322.chunk.css.map",
     "static/js/2.dec5b92c.chunk.js.LICENSE.txt": "/dnd-character/static/js/2.dec5b92c.chunk.js.LICENSE.txt",
-    "static/media/CharacterCombatStats.scss": "/dnd-character/static/media/armor.42ffbf72.svg",
+    "static/media/CharacterCombatStats.scss": "/dnd-character/static/media/hitPointsTemp.e0566c0e.svg",
     "static/media/CharacterHeader.scss": "/dnd-character/static/media/headerInfo.c92812d6.svg",
     "static/media/CharacterInspiration.scss": "/dnd-character/static/media/inspiration.018f3db6.svg",
     "static/media/CharacterPassiveWisdom.scss": "/dnd-character/static/media/passiveWisdomBody.dead8d7e.svg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.65fb8cb0.js",
     "static/js/2.dec5b92c.chunk.js",
-    "static/css/main.2018d84d.chunk.css",
-    "static/js/main.bfe624bf.chunk.js"
+    "static/css/main.9ab11322.chunk.css",
+    "static/js/main.3e82fa80.chunk.js"
   ]
 }
