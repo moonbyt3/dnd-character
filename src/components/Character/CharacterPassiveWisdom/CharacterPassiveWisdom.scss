@@ -1,0 +1,25 @@
+.character-passive-wisdom {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+.character-passive-wisdom__head {
+
+}
+.character-passive-wisdom__head-btn {
+
+}
+.character-passive-wisdom__body {
+    width: 100%;
+    min-height: 45px;
+    padding: 13px 0;
+    align-self: center;
+    background-image: url('../../../img/passiveWisdomBody.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: translateX(-3px);
+    span {
+        display: block;
+        text-align: center;
+    }
+}

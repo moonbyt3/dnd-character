@@ -7,6 +7,7 @@ import CharacterInspiration from './components/Character/CharacterInspiration/Ch
 import CharacterProficiency from './components/Character/CharacterProficiency/CharacterProficiency';
 import CharacterSavingThrows from './components/Character/CharacterSavingThrows/CharacterSavingThrows';
 import CharacterSkillScores from './components/Character/CharacterSkillScores/CharacterSkillScores';
+import CharacterPassiveWisdom from './components/Character/CharacterPassiveWisdom/CharacterPassiveWisdom';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
               <CharacterSkillScores />
             </div>
           </div>
+          <CharacterPassiveWisdom />
         </div>
         
 
