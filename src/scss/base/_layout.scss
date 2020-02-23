@@ -1,5 +1,8 @@
+* {
+    box-sizing: border-box;
+}
 .container {
-    max-width: 1240px;
+    max-width: 1140px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
@@ -10,4 +13,23 @@
 }
 .row {
     margin: 0 -15px;
+}
+.character-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 30px 30px;
+	font-size: 14px;
+}
+.character-body-col {
+    width: 100%;
+}
+.character-body-col-group {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+.character-body-stats-col {
+    margin-left: 15px;
+    width: 100%;
 }

@@ -1,0 +1,39 @@
+.character-proficiency {
+    width: 100%;
+    display: flex;
+    min-height: 70px;
+}
+.character-proficiency__head {
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 45px;
+}
+.character-proficiency-btn {
+    display: flex;
+    width: 40px;
+    height: 100%;
+    svg {
+        align-self: center;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.character-proficiency__body {
+    display: flex;
+    align-self: center;
+    width: 100%;
+    min-height: 43px;
+    max-width: 146px;
+    background-image: url('../../../img/body.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0 15px 0 10px;
+    text-align: center;
+    span {
+        align-self: center;
+        display: block;
+        width: 100%;
+    }
+}

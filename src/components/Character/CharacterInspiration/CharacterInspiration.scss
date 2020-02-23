@@ -1,0 +1,42 @@
+.character-inspiration {
+    width: 100%;
+    display: flex;
+    min-height: 40px;
+    margin-bottom: 15px;
+}
+.character-inspiration__head {
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 40px;
+}
+.character-inspiration-btn {
+    display: flex;
+    width: 40px;
+    height: 100%;
+    svg {
+        align-self: center;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}
+.character-inspiration__body {
+
+}
+.character-inspiration__body {
+    display: flex;
+    align-self: center;
+    width: 100%;
+    max-width: 146px;
+    min-height: 43px;
+    background-image: url('../../../img/body.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0 15px 0 10px;
+    text-align: center;
+    span {
+        align-self: center;
+        display: block;
+        width: 100%;
+    }
+}

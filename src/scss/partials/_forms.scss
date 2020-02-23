@@ -1,0 +1,70 @@
+.form-input {
+    display: block;
+    border: none;
+    width: 100%;
+    background-color: transparent;
+}
+.form-input-label {
+    display: block;
+}
+.form-row {
+    display: flex;
+    margin-bottom: 15px;
+}
+.check-group {
+    border: 2px solid black;
+    width: 100%;
+    padding-top: 5px;
+}
+.check-input  {
+    display: flex;
+    position: relative;
+    padding-left: 5px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    font-size: 14px;
+    user-select: none;
+}
+
+.check-input__checkbox-icon {
+    display: inline-block;
+    border: 1px solid $black;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    &::after {
+        content: '';
+        display: none;
+        width: 10px;
+        height: 10px;
+        display: block;
+        background-color: $black;
+    }
+}
+.check-input__input-wrap {
+    width: 25px;
+    margin: 0 5px;
+    &::after {
+        content: '';
+        display: block;
+        width: 25px;
+        height: 1px;
+        background-color: black;
+    }
+}
+.check-input__input {
+    display: block;
+    width: 100%;
+    border: none;
+    text-align: center;
+    &:focus {
+        outline: none;
+    }
+}
+.check-group__text {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1;
+    margin: 10px 0;
+}
