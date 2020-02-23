@@ -1,4 +1,5 @@
 import React from 'react';
+import './CharacterSkillScores.scss';
 
 export default function CharacterSkillScores() {
     return (

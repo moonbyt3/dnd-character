@@ -11,7 +11,6 @@
 }
 .character-inspiration-btn {
     display: flex;
-    width: 40px;
     height: 100%;
     svg {
         align-self: center;
@@ -21,14 +20,10 @@
     }
 }
 .character-inspiration__body {
-
-}
-.character-inspiration__body {
     display: flex;
     align-self: center;
     width: 100%;
-    max-width: 146px;
-    min-height: 43px;
+    min-height: 40px;
     background-image: url('../../../img/inspiration.svg');
     background-repeat: no-repeat;
     background-size: contain;
