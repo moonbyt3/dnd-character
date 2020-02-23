@@ -7,7 +7,21 @@
 
 }
 .character-passive-wisdom__head-btn {
-
+    position: relative;
+    display: block;
+}
+.character-passive-wisdom__input {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    transform: translate(-45%, -50%);
+    border: none;
+    text-align: center;
+    font-size: 20px;
 }
 .character-passive-wisdom__body {
     width: 100%;
