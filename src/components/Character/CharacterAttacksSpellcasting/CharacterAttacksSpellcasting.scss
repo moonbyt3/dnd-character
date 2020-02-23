@@ -1,0 +1,56 @@
+@import '../../../scss/base/variables';
+.character-attack-spellcasting {
+    display: block;
+    width: 100%;
+    min-height: 380px;
+    padding: 10px 15px;
+    background-image: url('../../../img/attacksSpellcasting.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.character-attack-spellcasting__table {
+    input {
+        display: block;
+        width: 100%;
+        background: darken($grey-light, 5%);
+        padding: 5px;
+    }
+    th:first-of-type, td {
+        width: 30px;
+    }
+}
+.character-attack-spellcasting__table-head {
+    display: flex;
+}
+.character-attack-spellcasting__table-head-text {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.character-attack-spellcasting__table-body-row {
+    display: flex;
+    margin-bottom: 5px;
+}
+.character-attack-spellcasting__table-item {
+    margin-bottom: 5px;
+    border: none;
+    &:first-of-type, &:last-of-type {
+        width: 110px;
+    }
+    &:nth-child(2) {
+        width: 70px;
+        margin: 0 15px 5px;
+    }
+}
+.character-attack-spellcasting__textarea {
+    display: block;
+    width: 100%;
+    resize: none;
+    border: none;
+    margin-bottom: 15px;
+}
+.character-attack-spellcasting__text {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+}

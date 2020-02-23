@@ -1,12 +1,12 @@
 @import '../../../scss/base/variables';
 
 .character-combat-stats {
-    padding: 10px;
+    padding: 10px 10px 0;
     background-color: $grey-light;
 }
 .character-combat-stats-row {
     display: flex;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 .character-combat-stats__initiative,
 .character-combat-stats__speed,
@@ -93,6 +93,7 @@
     border: none;
     resize: none;
     background: transparent;
+    margin-bottom: 5px;
 }
 .character-combat-stats__hit, 
 .character-combat-stats__death-saves {
