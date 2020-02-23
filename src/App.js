@@ -8,6 +8,8 @@ import CharacterProficiency from './components/Character/CharacterProficiency/Ch
 import CharacterSavingThrows from './components/Character/CharacterSavingThrows/CharacterSavingThrows';
 import CharacterSkillScores from './components/Character/CharacterSkillScores/CharacterSkillScores';
 import CharacterPassiveWisdom from './components/Character/CharacterPassiveWisdom/CharacterPassiveWisdom';
+import CharacterProficiencyOther from './components/Character/CharacterProficiencyOther/CharacterProficiencyOther';
+import CharacterCombatStats from './components/Character/CharacterCombatStats/CharacterCombatStats';
 
 function App() {
   return (
@@ -25,8 +27,11 @@ function App() {
             </div>
           </div>
           <CharacterPassiveWisdom />
+          <CharacterProficiencyOther />
         </div>
-        
+        <div className="character-body-col">
+          <CharacterCombatStats />
+        </div>
 
       </div>
     </div>
