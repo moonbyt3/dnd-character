@@ -21,20 +21,29 @@
 .character-stats__item-label {
     font-weight: bold;
 }
-.character-stats__item-input {
+.character-stats__item-input-ability-score {
     display: block;
     max-width: 48px;
     width: 100%;
-    margin: auto auto 0;
+    margin: auto auto 2px;
     border: none;
     background-color: transparent;
     text-align: center;
     padding: 8px 0 0;
     border-radius: 50%;
-    font-size: 20px;
-    font-weight: bold;
-    transform: translateX(1px);
+    font-size: 16px;
     &:focus {
         outline: none;
     }
+}
+.character-stats__item-input-ability-modifier {
+    width: 100%;
+    padding: 9px 0;
+    font-size: 20px;
+    max-width: 60px;
+    margin: 0 auto;
+    border: none;
+    background: transparent;
+    text-align: center;
+    font-weight: bold;
 }
