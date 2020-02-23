@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/dnd-character/static/css/main.bc597b2e.chunk.css",
-    "main.js": "/dnd-character/static/js/main.09b290d6.chunk.js",
-    "main.js.map": "/dnd-character/static/js/main.09b290d6.chunk.js.map",
+    "main.css": "/dnd-character/static/css/main.763119be.chunk.css",
+    "main.js": "/dnd-character/static/js/main.9479d9d6.chunk.js",
+    "main.js.map": "/dnd-character/static/js/main.9479d9d6.chunk.js.map",
     "runtime-main.js": "/dnd-character/static/js/runtime-main.65fb8cb0.js",
     "runtime-main.js.map": "/dnd-character/static/js/runtime-main.65fb8cb0.js.map",
     "static/js/2.dec5b92c.chunk.js": "/dnd-character/static/js/2.dec5b92c.chunk.js",
     "static/js/2.dec5b92c.chunk.js.map": "/dnd-character/static/js/2.dec5b92c.chunk.js.map",
     "index.html": "/dnd-character/index.html",
-    "precache-manifest.1d17b956bb3e757b95afbdad727ea1bb.js": "/dnd-character/precache-manifest.1d17b956bb3e757b95afbdad727ea1bb.js",
+    "precache-manifest.77a475f0f62d04c97ad71d1f95630de3.js": "/dnd-character/precache-manifest.77a475f0f62d04c97ad71d1f95630de3.js",
     "service-worker.js": "/dnd-character/service-worker.js",
-    "static/css/main.bc597b2e.chunk.css.map": "/dnd-character/static/css/main.bc597b2e.chunk.css.map",
+    "static/css/main.763119be.chunk.css.map": "/dnd-character/static/css/main.763119be.chunk.css.map",
     "static/js/2.dec5b92c.chunk.js.LICENSE.txt": "/dnd-character/static/js/2.dec5b92c.chunk.js.LICENSE.txt",
     "static/media/CharacterHeader.scss": "/dnd-character/static/media/headerInfo.839de546.svg",
     "static/media/CharacterInspiration.scss": "/dnd-character/static/media/inspiration.b6de3187.svg",
+    "static/media/CharacterProficiency.scss": "/dnd-character/static/media/proficiencyBonusBody.428913ed.svg",
+    "static/media/CharacterSavingThrows.scss": "/dnd-character/static/media/savingThrows.519538c2.svg",
+    "static/media/CharacterSkillScores.scss": "/dnd-character/static/media/skillScores.807ff16d.svg",
     "static/media/stat.svg": "/dnd-character/static/media/stat.6b70027d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.65fb8cb0.js",
     "static/js/2.dec5b92c.chunk.js",
-    "static/css/main.bc597b2e.chunk.css",
-    "static/js/main.09b290d6.chunk.js"
+    "static/css/main.763119be.chunk.css",
+    "static/js/main.9479d9d6.chunk.js"
   ]
 }
