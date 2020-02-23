@@ -5,9 +5,9 @@
     margin-bottom: 15px;
 }
 .character-inspiration__head {
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 40px;
+    // background-image: url('../../../img/headSquare.svg');
+    // background-repeat: no-repeat;
+    // background-size: cover;
 }
 .character-inspiration-btn {
     display: flex;
@@ -29,7 +29,7 @@
     width: 100%;
     max-width: 146px;
     min-height: 43px;
-    background-image: url('../../../img/body.svg');
+    background-image: url('../../../img/inspiration.svg');
     background-repeat: no-repeat;
     background-size: contain;
     padding: 0 15px 0 10px;

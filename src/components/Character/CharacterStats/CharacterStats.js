@@ -1,7 +1,7 @@
 import React from 'react';
 import './CharacterStats.scss';
 
-import statBackground from '../../../img/stat-box.svg';
+import statBackground from '../../../img/stat.svg';
 
 export default function CharacterStats() {
     return (
