@@ -1,0 +1,11 @@
+body {
+    background-color: $white;
+    * {
+        color: $black;
+        box-sizing: border-box;
+    }
+}
+.centered {
+    display: block;
+    text-align: center;
+}
