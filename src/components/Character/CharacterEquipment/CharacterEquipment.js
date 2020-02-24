@@ -31,7 +31,7 @@ export default function CharacterEquipment() {
                     <textarea name="" id="" cols="30" rows="19"></textarea>
                 </div>
             </div>
-            <span class="character-attack-spellcasting__text">Equipment</span>
+            <span className="character-attack-spellcasting__text">Equipment</span>
         </div>
     )
 }
