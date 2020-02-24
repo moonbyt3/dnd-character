@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/dnd-character/static/css/main.6d2b49ea.chunk.css",
-    "main.js": "/dnd-character/static/js/main.ca38bea6.chunk.js",
-    "main.js.map": "/dnd-character/static/js/main.ca38bea6.chunk.js.map",
+    "main.css": "/dnd-character/static/css/main.e0c95ade.chunk.css",
+    "main.js": "/dnd-character/static/js/main.2582ca79.chunk.js",
+    "main.js.map": "/dnd-character/static/js/main.2582ca79.chunk.js.map",
     "runtime-main.js": "/dnd-character/static/js/runtime-main.65fb8cb0.js",
     "runtime-main.js.map": "/dnd-character/static/js/runtime-main.65fb8cb0.js.map",
     "static/js/2.dec5b92c.chunk.js": "/dnd-character/static/js/2.dec5b92c.chunk.js",
     "static/js/2.dec5b92c.chunk.js.map": "/dnd-character/static/js/2.dec5b92c.chunk.js.map",
     "index.html": "/dnd-character/index.html",
-    "precache-manifest.73ccfa61bc6de8a9685ca83c0fef51cd.js": "/dnd-character/precache-manifest.73ccfa61bc6de8a9685ca83c0fef51cd.js",
+    "precache-manifest.b81359a224fbd1dd5ce99c91532fb155.js": "/dnd-character/precache-manifest.b81359a224fbd1dd5ce99c91532fb155.js",
     "service-worker.js": "/dnd-character/service-worker.js",
-    "static/css/main.6d2b49ea.chunk.css.map": "/dnd-character/static/css/main.6d2b49ea.chunk.css.map",
+    "static/css/main.e0c95ade.chunk.css.map": "/dnd-character/static/css/main.e0c95ade.chunk.css.map",
     "static/js/2.dec5b92c.chunk.js.LICENSE.txt": "/dnd-character/static/js/2.dec5b92c.chunk.js.LICENSE.txt",
     "static/media/CharacterCombatStats.scss": "/dnd-character/static/media/hitPointsTemp.e0566c0e.svg",
+    "static/media/CharacterAttacksSpellcasting.scss": "/dnd-character/static/media/attacksSpellcasting.283f3703.svg",
+    "static/media/CharacterEquipment.scss": "/dnd-character/static/media/equipment.466d2713.svg",
     "static/media/CharacterHeader.scss": "/dnd-character/static/media/headerInfo.c92812d6.svg",
     "static/media/CharacterInspiration.scss": "/dnd-character/static/media/inspiration.018f3db6.svg",
     "static/media/CharacterPassiveWisdom.scss": "/dnd-character/static/media/passiveWisdomBody.dead8d7e.svg",
@@ -25,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.65fb8cb0.js",
     "static/js/2.dec5b92c.chunk.js",
-    "static/css/main.6d2b49ea.chunk.css",
-    "static/js/main.ca38bea6.chunk.js"
+    "static/css/main.e0c95ade.chunk.css",
+    "static/js/main.2582ca79.chunk.js"
   ]
 }
