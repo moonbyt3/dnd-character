@@ -1,8 +1,10 @@
 @import '../../../scss/base/variables';
+
 .character-attack-spellcasting {
     display: block;
     width: 100%;
     min-height: 380px;
+    margin-bottom: 15px;
     padding: 10px 15px;
     background-image: url('../../../img/attacksSpellcasting.svg');
     background-repeat: no-repeat;

@@ -11,6 +11,7 @@ import CharacterPassiveWisdom from './components/Character/CharacterPassiveWisdo
 import CharacterProficiencyOther from './components/Character/CharacterProficiencyOther/CharacterProficiencyOther';
 import CharacterCombatStats from './components/Character/CharacterCombatStats/CharacterCombatStats';
 import CharacterAttacksSpellcasting from './components/Character/CharacterAttacksSpellcasting/CharacterAttacksSpellcasting';
+import CharacterEquipment from './components/Character/CharacterEquipment/CharacterEquipment';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <div className="character-body-col">
           <CharacterCombatStats />
           <CharacterAttacksSpellcasting />
+          <CharacterEquipment />
         </div>
 
       </div>

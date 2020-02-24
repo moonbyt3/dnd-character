@@ -1,0 +1,46 @@
+.character-equipment {
+    width: 100%;
+    min-height: 340px;
+    padding: 10px 15px 10px 22px;
+    background-image: url('../../../img/equipment.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: translateX(-5px);
+}
+.character-equipment-wrap {
+    display: flex;
+    margin-bottom: 6px;
+}
+.character-equipment__stats {
+    width: 87px;
+    padding: 9px 0;
+}
+.character-equipment__stats-item {
+    display: flex;
+    transform: translateX(-16px);
+    margin-bottom: 14px;
+    align-items: center;
+}
+.character-equipment__stats-item-text {
+    display: flex;
+    width: 20px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+.character-equipment__stats-item-input {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    background: transparent;
+    text-align: center;
+}
+.character-equipment__textarea {
+    margin-left: 10px;
+    textarea {
+        width: 100%;
+        border: none;
+        background: transparent;
+        resize: none;
+    }
+}
